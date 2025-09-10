@@ -6,7 +6,7 @@
 
 nav{
     display: flex;
-    background-color: #1C2833;
+    background-color: #17202A;
     height: 80px;
     width: 100%;
     justify-content: space-between;
@@ -92,4 +92,16 @@ nav ul li a:hover{
     #click:checked ~ .menu-btn::before{
         content: "Close";
     }
+}
+
+
+
+/* Header Section Code Start Hare  */
+
+header{
+    background-image: url('photo/wallhaven-q27l97_1920x1080.png');
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
