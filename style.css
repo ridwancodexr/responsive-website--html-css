@@ -149,6 +149,73 @@ header{
 }
 
 
+/* Second Section Code Start  */
+
+#second-section{
+    background-color: #F54927;
+    padding: 50px 0 100px 0;
+}
+
+.smart-title{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    letter-spacing: 0.2em;
+    margin-bottom: 30px;
+}
+
+#smart-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.smart-text{
+    color: white;
+}
+.smart-text h2{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.smart-text a{
+    text-decoration: none;
+    font-size: 22px;
+    background-color: bisque;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.dj-girl{
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* First Section Of Nain Tag Media Query Code Start  */
 
 
@@ -159,6 +226,18 @@ header{
         grid-gap:10px;
         width: 100%;
      }
+
+     #smart-parent{
+    display: block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.smart-img img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
 }
 
 @media only screen and (min-width:689px) and (max-width:1099px) {
@@ -168,4 +247,16 @@ header{
         grid-gap:20px;
         width: 100%;
      }
+
+     #smart-parent{
+    display: block;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.smart-img img{
+    width: 100%;
+    margin-bottom: 70px;
+}
+
 }
