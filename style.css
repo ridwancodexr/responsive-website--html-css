@@ -89,8 +89,8 @@ nav ul li a:hover{
     #click:checked ~ ul{
         left: 0%;
     }
-    #click:checked ~ .menu-btn::before{
-        content: "Close";
+    #click:checked ~ .menu-btn i::before{
+        content: "\f00d";
     }
 }
 
